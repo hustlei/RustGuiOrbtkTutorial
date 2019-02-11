@@ -10,7 +10,7 @@ os:
   - linux
 sudo: required
 before_install:
-  - sudo apt-get install libsdl2-dev
+  - sudo apt-get update && sudo apt-get install libsdl2-dev
 
 stages:
   - format
