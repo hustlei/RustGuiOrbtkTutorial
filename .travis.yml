@@ -8,6 +8,7 @@ matrix:
   fast_finish: true
 os:
   - linux
+sudo: required
 before_install:
   - apt-get install libsdl2-dev
 
