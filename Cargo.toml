@@ -1,0 +1,8 @@
+[package]
+name = "orbtkgui"
+version = "0.1.0"
+authors = ["hustlei <hustlei@sina.cn>"]
+edition = "2018"
+
+[dependencies]
+orbtk ={git="https://gitlab.redox-os.org/redox-os/orbtk.git"}

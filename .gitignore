@@ -1,0 +1,6 @@
+/target
+**/*.rs.bk
+/doc
+*main*
+*.stackdump
+*tst.rs
