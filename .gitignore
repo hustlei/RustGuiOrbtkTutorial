@@ -1,6 +1,7 @@
-/target
+target/
+.vs/
+doc/
 **/*.rs.bk
-/doc
 *main*
 *.stackdump
 *tst.rs
