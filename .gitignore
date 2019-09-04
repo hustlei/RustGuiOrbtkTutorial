@@ -5,3 +5,4 @@ doc/
 *main*
 *.stackdump
 *tst.rs
+*.lock
