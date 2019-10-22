@@ -1,10 +1,10 @@
 language: rust
 rust:
   - stable
-  - nightly
+  #- nightly
 matrix:
-  allow_failures:
-    - rust: nightly
+  # allow_failures:
+    # - rust: nightly
   fast_finish: true
 os:
   - linux
@@ -31,7 +31,6 @@ jobs:
       name: buildlinux
       os: linux
       script:
-        - cargo build --bin start
         - cargo build --bin helloworld
     - stage: test
       script:
