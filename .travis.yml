@@ -32,6 +32,6 @@ jobs:
       os: linux
       script:
         - cargo build --bin helloworld
-    - stage: test
-      script:
-        - cargo test
+    # - stage: test
+      # script:
+        # - cargo test
